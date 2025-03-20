@@ -1,0 +1,41 @@
+// 변수로 메인 컬러 관리
+$my-primary-color: #5ebee8;
+
+// 바디 배경색 변경
+body {
+  background-color: #101010;
+  color: #5f5f5f;
+}
+
+// 제목 색상 변경
+h1, h2, h3 {
+  color: $my-primary-color;
+}
+
+// 링크 커스텀
+a {
+    text-decoration: none;
+}
+
+.archive__subtitle h3 {
+    color: $my-primary-color;
+
+    &:hover {
+      color: darken($my-primary-color, 10%);
+    }
+}
+
+// 헤더 배경색상 변경
+#site-nav {
+    background-color: #101010;
+    color: #cccccc;
+}
+  
+.masthead__menu a {
+    color: #cccccc;
+}
+
+// 본문 archive recent post 색상 변경
+.archive__subtitle {
+    color: #cccccc;
+}

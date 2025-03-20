@@ -114,8 +114,8 @@ analytics:
 # Site Author
 # 좌측 사이드바 요소
 author:
-  name             : "oi-RYH"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : # "oi-RYH"
+  avatar           : "assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : " " # "I am an **amazing** person."
   location         : "South Korea"
   email            : # "ryuyaelhwa@gmail.com"
