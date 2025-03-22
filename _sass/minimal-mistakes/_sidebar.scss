@@ -135,7 +135,8 @@
 
   img {
     max-width: 110px;
-    //border-radius: 50%;
+    //border-radius: 50%; 
+    // 프로필 사진 주위에 라인 생성하는 코드
     /*
     @include breakpoint($large) {
       padding: 5px;
