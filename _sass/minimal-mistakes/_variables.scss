@@ -1,12 +1,12 @@
 /* ==========================================================================
-   Variables
+   Variables - 사이트 전체에서 사용하는 공통 변수들 정의
    ========================================================================== */
 
 /*
-   Typography
+   Typography - 글꼴 및 텍스트 스타일
    ========================================================================== */
 
-$doc-font-size: 11px !default;
+$doc-font-size: 11px !default;                               // 기본 폰트 크기
 $doc-font-size-medium: $doc-font-size * 1.125 !default;
 $doc-font-size-large: $doc-font-size * 1.25 !default;
 $doc-font-size-x-large: $doc-font-size * 1.375 !default;
@@ -32,7 +32,7 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
+$global-font-family: $sans-serif !default;                  // 전체 기본 폰트
 $header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
@@ -73,7 +73,7 @@ $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
-$primary-color: #6f777d !default;
+$primary-color: #6f777d !default; // 사이트의 주요 강조 색
 $success-color: #3fa63f !default;
 $warning-color: #d67f05 !default;
 $danger-color: #ee5f5b !default;
@@ -113,7 +113,7 @@ $vine-color: #00bf8f !default;
 $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
-/* links */
+/* links - 링크 기본 및 호버, 방문 색상 */
 $link-color: mix(#000, $info-color, 20%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 15%) !default;
@@ -144,7 +144,7 @@ $base0e: #c792ea !default;
 $base0f: #ff5370 !default;
 
 /*
-   Breakpoints
+   Breakpoints - 반응형 웹을 위한 해상도 기준
    ========================================================================== */
 
 $small: 600px !default;
@@ -167,11 +167,11 @@ $right-sidebar-width-wide: 250px !default;
    Other
    ========================================================================== */
 
-$border-radius: 4px !default;
+$border-radius: 4px !default;                      /* 기타 - 둥근 모서리, 그림자, 트랜지션 설정 */
 $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
 $nav-height: 2em !default;
 $nav-toggle-height: 2rem !default;
 $navicon-width: 1.5rem !default;
 $navicon-height: 0.25rem !default;
-$global-transition: all 0.2s ease-in-out !default;
+$global-transition: all 0.2s ease-in-out !default; /* 기타 - 둥근 모서리, 그림자, 트랜지션 설정 */
 $intro-transition: intro 0.3s both !default;
