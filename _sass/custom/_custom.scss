@@ -1,5 +1,5 @@
 // 변수로 메인 컬러 관리
-$my-primary-color: #5ebee8;
+$my-primary-color: #0b1a6b;
 
 // 바디 배경 및 텍스트 색상 변경
 body {
@@ -17,7 +17,15 @@ a {
     text-decoration: none;
 }
 
-.masthead__menu a {
+/* Sticky Header */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba($color: #101010, $alpha: 0.8) !important;
+}
+
+.masthead__menu {
   color: #cccccc;
 }
 
@@ -32,18 +40,24 @@ a {
 
 // 상단 내비게이션 배경 및 텍스트 색상 변경
 #site-nav {
-    background-color: #101010;
-    color: #cccccc;
+  background-color: rgba($color: #101010, $alpha: 0);
+  color: #cccccc;
 }
   
 // 내비게이션 메뉴 항목 색상
 .masthead__menu a {
-    color: #cccccc;
+  color: #cccccc;
+}
+
+// masthead가 sticky일 때 사이드바 겹침 방지
+.sidebar,
+#main {
+  padding-top: 70px; // 실제 masthead 높이에 따라 조절
 }
 
 // 최근 글 영역 부제목 색상
 .archive__subtitle {
-    color: #cccccc;
+  color: #cccccc;
 }
 
 // 포스트 본문 텍스트 색상 변경
