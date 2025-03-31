@@ -20,9 +20,3 @@ sidebar-categories:
     children:
       - title: "Data Struct"
         url: "/DataStruct/"
-  - title: "Baking"
-    children: 
-      - title: "Bread"
-        url: "/Bread/"
-      - title: "Dessert"
-        url: "/Dessert/"
