@@ -1,0 +1,108 @@
+// 변수로 메인 컬러 관리
+$my-primary-color: #89b4dd;
+
+// 바디 배경 및 텍스트 색상 변경
+html {
+  background-color: #101010;
+}
+
+/*
+// 제목(h1~h3) 색상 변경
+#site-header h1, #site-header h2, #site-header h3 {
+  color: $my-primary-color;
+}
+*/
+
+
+/*
+// 링크 스타일 제거
+a {
+  color: $my-primary-color;
+  text-decoration: none;
+}
+*/
+
+/* Sticky Header */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba($color: #101010, $alpha: 0.8) !important;
+}
+
+/*
+.masthead__menu {
+  color: #cccccc;
+}
+*/
+
+/*
+// 아카이브 영역의 부제목 색상 및 호버 효과
+.archive__item-title.no_toc h2 {
+    color: $my-primary-color;
+
+    &:hover {
+      color: darken($my-primary-color, 10%);
+    }
+}
+*/
+
+// 상단 내비게이션 배경 및 텍스트 색상 변경
+#site-nav {
+  background-color: rgba($color: #101010, $alpha: 0);
+  color: #cccccc;
+}
+  
+// 내비게이션 메뉴 항목 색상
+.masthead__menu a {
+  color: #cccccc;
+}
+
+// masthead가 sticky일 때 사이드바 겹침 방지
+.sidebar,
+#main {
+  padding-top: 1.6%; // 실제 masthead 높이에 따라 조절
+}
+
+/*
+// 최근 글 영역 부제목 색상
+.archive__subtitle {
+  color: #cccccc;
+}
+*/
+
+// 포스트 본문 텍스트 색상 변경
+.page__content {
+  color: #cccccc;
+}
+
+/* 코드 블럭 전체 배경 색상 변경 */
+.page__content .highlighter-rouge {
+  background-color: #1e1e1e; // 원하는 배경 색상
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+/* 코드 내부 <pre> 스타일도 함께 조정 */
+.page__content pre.highlight {
+  background: none; // 기본 배경 제거 (겹치지 않게)
+  color: #f1f1f1; // 글자색도 필요시 수정
+  overflow-x: auto;
+}
+
+.page__title {
+  color: #ffffff !important;
+}
+
+/* 인라인 코드 스타일 커스터마이징 */
+code.language-plaintext.highlighter-rouge {
+  font-size: 0.9em !important;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: #2e2e2e;
+  color: #f8f8f2;
+}
+
+.archive {
+  padding-left: 6%;
+}
