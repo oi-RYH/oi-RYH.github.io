@@ -21,4 +21,4 @@ sidebar-categories:
   - title: "Programming"
     children:
       - title: "Data Struct"
-        url: "/DataStruct/"
+        url: "/categories/DataStruct/"
