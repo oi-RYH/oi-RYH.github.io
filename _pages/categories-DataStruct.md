@@ -1,7 +1,7 @@
 ---
 title: "Data Struct"
 layout: archive
-permalink: /DataStruct
+permalink: /categories/DataStruct
 ---
 
 
