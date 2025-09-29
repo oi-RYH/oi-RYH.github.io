@@ -12,8 +12,8 @@ main:
   #   url: /sitemap/
   # - title: "Category"
   #   url: "/categories/"
-  - title: "Baking"
-    url: "/baking/"
+  # - title: "Baking"
+  #   url: "/baking/"
   - title: "GitHub"
     url: "https://github.com/oi-RYH"
 
