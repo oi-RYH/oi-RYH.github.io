@@ -19,8 +19,8 @@ main:
   - title: "GitHub"
     url: "https://github.com/oi-RYH"
 
-# sidebar-categories:
-#   - title: "Programming"
-#     children:
-#       - title: "Data Struct"
-#         url: "/categories/DataStruct/"
+sidebar-categories:
+  - title: "Programming"
+    children:
+      - title: "Data Struct"
+        url: "/coding/data-struct/"
