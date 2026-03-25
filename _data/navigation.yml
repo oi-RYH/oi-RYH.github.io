@@ -12,13 +12,15 @@ main:
   #   url: /sitemap/
   # - title: "Category"
   #   url: "/categories/"
-  # - title: "Baking"
-  #   url: "/baking/"
+  - title: "Baking"
+    url: "/baking/"
+  # - title: "일상 모드"
+  #   url: "/home/life/"
   - title: "GitHub"
     url: "https://github.com/oi-RYH"
 
-sidebar-categories:
-  - title: "Programming"
-    children:
-      - title: "Data Struct"
-        url: "/categories/DataStruct/"
+# sidebar-categories:
+#   - title: "Programming"
+#     children:
+#       - title: "Data Struct"
+#         url: "/categories/DataStruct/"
