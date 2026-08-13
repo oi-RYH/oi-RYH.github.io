@@ -28,3 +28,7 @@ sidebar-categories:
     children:
       - title: "Calibration"
         url: "/categories/Calibration/"
+  - title: "Hobbies"
+    children:
+      - title: "Minecraft"
+        url: "/categories/Minecraft/"
