@@ -20,7 +20,7 @@ main:
     url: "https://github.com/oi-RYH"
 
 sidebar-categories:
-  - title: "Programming"
+  - title: "Coursework"
     children:
       - title: "Data Struct"
         url: "/categories/DataStruct/"
