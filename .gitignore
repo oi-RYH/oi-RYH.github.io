@@ -30,3 +30,6 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Local video production projects and render outputs
+/output/

@@ -24,6 +24,8 @@ sidebar-categories:
     children:
       - title: "Data Struct"
         url: "/categories/DataStruct/"
+      - title: "Network"
+        url: "/categories/Network/"
   - title: "LAB"
     children:
       - title: "Calibration"
