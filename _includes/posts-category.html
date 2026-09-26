@@ -1,4 +1,7 @@
 {% assign posts = site.categories[include.taxonomy] | where_exp: "post", "post.hidden != true" %}
+{% if page.sort_by %}
+  {% assign posts = posts | sort: page.sort_by %}
+{% endif %}
 {%- for post in posts -%}
   {% include archive-single.html %}
 {%- endfor -%}
