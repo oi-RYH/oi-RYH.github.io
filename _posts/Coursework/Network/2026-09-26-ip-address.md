@@ -113,4 +113,4 @@ excerpt: "localhost는 왜 친구의 컴퓨터에서 다르게 동작할까? 마
 
 이전 글: [인터넷 5계층과 프로토콜]({% post_url /Coursework/Network/2026-09-26-internet-layers %})
 
-다음 주제는 네트워크 경계를 나타내는 서브넷 마스크와 프리픽스다.
+다음 글: [서브넷 마스크와 CIDR]({% post_url /Coursework/Network/2026-09-27-subnet-mask-cidr %})
