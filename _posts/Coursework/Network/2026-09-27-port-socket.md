@@ -111,3 +111,5 @@ TCP 서버에서는 새 연결을 기다리는 대기 소켓과, 연결을 받�
 - 임시 출발지 포트, 서버의 서비스 포트, 루프백 주소의 역할을 구별한다.
 
 이전 글: [DHCP와 ARP]({% post_url /Coursework/Network/2026-09-27-dhcp-arp %})
+
+다음 글: [공인 IP와 사설 IP 그리고 바인딩]({% post_url /Coursework/Network/2026-10-07-public-private-localhost-bind %})
